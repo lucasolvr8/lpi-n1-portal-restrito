@@ -7,17 +7,17 @@
     },
     {
       "id": 2,
-      "username": "Ana Carol",
+      "username": "ana",
       "password": "321"
     },
     {
       "id": 3,
-      "username": "Lucas",
-      "password": "582"
+      "username": "lucas",
+      "password": "452"
     },
     {
       "id": 4,
-      "username": "Maxwell",
+      "username": "maxwell",
       "password": "123"
     }
   ]

@@ -117,6 +117,9 @@ Autentica um usuário com base em `username` e `password`.
 | Usuário | Senha |
 | ------- | ----- |
 | admin   | 123   |
+| lucas   | 452   |
+| ana     | 321   |
+| maxwell | 123   |
 
 ---
 
@@ -134,4 +137,6 @@ Autentica um usuário com base em `username` e `password`.
 
 ## Autor
 
+Lucas Henrique Oliveira
+RA: 5162996
 Desenvolvido como parte da avaliação prática — Professor Maxwell Gomes.
