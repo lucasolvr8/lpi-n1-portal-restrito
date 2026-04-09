@@ -1,16 +1,16 @@
-# 🔐 Portal de Autenticação — Prova Prática
+# Portal de Autenticação — Prova Prática
 
 Aplicação web fullstack com sistema de login, validação de segurança e dashboard dinâmico pós-autenticação.
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Projeto desenvolvido como prova prática da disciplina de programação web. O sistema implementa um fluxo completo de autenticação: formulário de login no frontend, validação no backend via API REST, e manipulação dinâmica do DOM após o sucesso do login.
 
 ---
 
-## 🗂️ Estrutura de Pastas
+## Estrutura de Pastas
 
 ```
 projeto/
@@ -26,7 +26,7 @@ projeto/
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Camada   | Tecnologia              |
 | -------- | ----------------------- |
@@ -38,7 +38,7 @@ projeto/
 
 ---
 
-## ⚙️ Como Rodar o Projeto
+## Como Rodar o Projeto
 
 ### Pré-requisitos
 
@@ -70,7 +70,7 @@ Abra o arquivo `frontend/index.html` diretamente no navegador.
 
 ---
 
-## 🔌 Endpoints da API
+## Endpoints da API
 
 ### `POST /login`
 
@@ -104,7 +104,7 @@ Autentica um usuário com base em `username` e `password`.
 
 ---
 
-## 🛡️ Segurança Implementada
+## Segurança Implementada
 
 - **Campos obrigatórios:** entradas vazias são bloqueadas com erro 400
 - **Proteção contra SQL Injection simulada:** strings contendo `;` são rejeitadas
@@ -112,7 +112,7 @@ Autentica um usuário com base em `username` e `password`.
 
 ---
 
-## 🧪 Credenciais de Teste
+## Credenciais de Teste
 
 | Usuário | Senha |
 | ------- | ----- |
@@ -120,7 +120,7 @@ Autentica um usuário com base em `username` e `password`.
 
 ---
 
-## 📌 Funcionalidades
+## Funcionalidades
 
 - [x] Servidor Node.js com Express
 - [x] Rota `POST /login` com validação completa
@@ -132,6 +132,6 @@ Autentica um usuário com base em `username` e `password`.
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Desenvolvido como parte da avaliação prática — Professor Maxwell Gomes.
