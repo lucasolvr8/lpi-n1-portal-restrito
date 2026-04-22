@@ -1,4 +1,5 @@
-async function fazerLogin() {
+document.getElementById('login-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
 
   // 1. CAPTURA o que o usuário digitou
   const username = document.getElementById('username').value;
@@ -41,4 +42,4 @@ async function fazerLogin() {
     result.textContent = 'Erro ao conectar com o servidor.';
     result.className = 'error';
   }
-}
+});

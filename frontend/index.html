@@ -26,20 +26,24 @@
           <p class="subtitle">Insira suas credenciais para continuar</p>
         </div>
 
-        <div class="form-group">
-          <label for="username">Usuário</label>
-          <input type="text" id="username" placeholder="Digite seu usuário" required />
-        </div>
+        <form id="login-form">
 
-        <div class="form-group">
-          <label for="password">Senha</label>
-          <input type="password" id="password" placeholder="••••••••" required />
-        </div>
+          <div class="form-group">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" placeholder="Digite seu usuário" required />
+          </div>
 
-        <button onclick="fazerLogin()">
-          <span>Acessar plataforma</span>
-          <span class="btn-arrow">→</span>
-        </button>
+          <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="••••••••" required />
+          </div>
+
+          <button type="submit">
+            <span>Acessar plataforma</span>
+            <span class="btn-arrow">→</span>
+          </button>
+
+        </form>
 
         <p id="result"></p>
       </div>
